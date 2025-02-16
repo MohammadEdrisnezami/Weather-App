@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/your_username/weather-app.git
+    git clone https://github.com/MohammadEdrisnezami/Weather-App.git
     ```
 2. Install NPM packages
     ```sh
@@ -66,6 +66,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Your Name - [@your_twitter](https://twitter.com/your_twitter) - mohammadedrisnezmay@gmail.com.com
 
-Project Link: [https://github.com/your_username/weather-app](https://github.com/your_username/weather-app)
+Project Link: [https://github.com/MohammadEdrisnezami/Weather-App](https://github.com/MohammadEdrisnezami/Weather-App)
