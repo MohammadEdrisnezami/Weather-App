@@ -66,6 +66,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - mohammadedrisnezmay@gmail.com.com
+Your Name - [@your_twitter](https://twitter.com/your_twitter) - mohammadedrisnezmay@gmail.com
 
 Project Link: [https://github.com/MohammadEdrisnezami/Weather-App](https://github.com/MohammadEdrisnezami/Weather-App)
