@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); /* گرادینت بنفش به آبی */
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3), 0px 0px 20px rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  width: 320px;
+  height: 520px;
+  color: #fff;
+  text-align: center;
+}
+
+.weather-card .search-bar {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.weather-card .search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  flex: 1;
+  padding: 5px;
+}
+
+.weather-card .search-bar input::placeholder {
+  color: #ddd; /* متن جایگزین روشن‌تر */
+}
+
+.weather-card .search-bar button {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.weather-card .search-bar svg {
+  margin-right: 10px;
+}
+
+.weather-card .weather-icon {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.weather-card .temperature {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px; /* افزودن margin-top */
+}
+
+.weather-card .description {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 5px; /* افزودن margin-top */
+}
+
+.weather-card .details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; /* افزودن margin-top */
+  font-size: 20px; /* افزایش اندازه فونت */
+}
+
+.weather-card .details div {
+  display: flex;
+  align-items: center;
+  margin: 0 20px; /* افزایش فاصله بین div ها */
+}
+
+.weather-card .details svg {
+  margin-right: 5px;
+  font-size: 30px; /* افزایش اندازه آیکون */
+}
+
+#searchbutton {
+  text-align: center;
+  width: 40px;
+}
+
+#weatherIcon {
+  font-size: 100px;
+}
+
+#error {
+  color: red;
+}
+.search-bar input {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.temperature {
+  animation: fadeIn 1s ease-in-out;
+}
